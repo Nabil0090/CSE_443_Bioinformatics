@@ -127,7 +127,7 @@ def train_omni_dna_classifier(
         greater_is_better=True,
         save_total_limit=2,
         load_best_model_at_end=False,
-        save_safetensors=True,
+        save_safetensors=False,
         logging_steps=10,
         report_to="none"
     )
